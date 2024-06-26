@@ -1,0 +1,19 @@
+.imageWrapper {
+    position: relative;
+}
+.overlayImage {
+    display: block;
+    /*position: absolute;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 20%;
+}
+.overlayText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    
+}
